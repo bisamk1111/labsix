@@ -48,16 +48,6 @@ body{
     clear: both;
 	}
 
-#main-nav ul{
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    float: left;
-    position: relative;
-    left:50%;
-}
-	
-
 #content-wrapper{
     background-image: url("../images/repeating.png");
     float: left;
@@ -95,6 +85,20 @@ body{
     width: 100%;
     background-color: #333;
 }
+#main-nav ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+    left:50%;
+}
+
+#main-nav ul li{
+	float: left;
+    position: relative;
+    right: 50%;
+}
 #main-nav ul li a{
     padding: 10px 25px;
     display: block;
@@ -107,8 +111,4 @@ body{
 	}
 
 
-#main-nav ul li{
-	float: left;
-    position: relative;
-    right: 50%;
-}
+
